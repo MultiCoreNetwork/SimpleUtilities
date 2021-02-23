@@ -1,0 +1,24 @@
+name: ${project.name}
+version: ${project.version}
+main: it.multicoredev.utils.SimpleUtilities
+author: LoreSchaeffer
+api-version: 1.13
+description: A lightweight collection of utilities
+website: https://github.com/MultiCoreNetwork/SimpleUtilities
+prefix: su
+softdepend: [ "Vault", "LuckPerms", "PlaceholderAPI" ]
+
+commands:
+  gm:
+    description: "Change the gamemode faster."
+    usage: "/<command> <gamemode> [player]"
+  setspawn:
+    description: "Sets the spawn point to your current position."
+    usage: "/<command>"
+  spawn:
+    description: "Teleports to the spawn point."
+    usage: "/<command> [player]"
+  simplereload:
+    description: "Reloads this plugin."
+    aliases: [ "sureload" ]
+    usage: "/<command>"
